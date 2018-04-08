@@ -1,0 +1,26 @@
+{
+  "name": "eMedWeb",
+  "description": "eMedWeb 2018",
+  "main": "index.js",
+  "authors": [
+    "eMed - Alessandra Sell"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "eMedWeb",
+    "eMed"
+  ],
+  "homepage": "emedweb.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "componentes"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
