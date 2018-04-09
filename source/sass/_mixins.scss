@@ -5,12 +5,12 @@ $branco: #fff;
 $vermelho:#b9080a;
 $azul:#12829c;
 $verdeclaro: #2cc46c;
-$laranja:#f19800
+$laranja:#f19800;
 
 /*fontes*/
 
 
-$fontepri: 'Encode Sans Semi Expanded', sans-serif;
+$fontepri:'Encode Sans Semi Expanded',sans-serif;
 $thin: 100;
 $light:300;
 $medio:500;
@@ -24,6 +24,26 @@ br {
   line-height: 1.0em;
 }
 
+.top10 {
+  padding-top: 10px;
+}
+.top15 {
+  padding-top: 15px;
+}
+.top20 {
+  padding-top: 20px;
+}
+.top30{
+  padding-top: 30px;
+}
+.top40 {
+  padding-top: 40px;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 /*converte as fontes em rem*/
 

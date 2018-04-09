@@ -1,1 +1,132 @@
 @import "mixins";
+
+.containerfull {
+    min-height:100vh;   
+}
+.topbar{
+    margin-top:0;
+    padding-top: 0;
+    background-color: $verde;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    .teltopo{
+        background-color: $laranja;
+       color: $branco;
+       height: 46px;
+       -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-radius:0px 0px 10px 10px;
+    border-radius:0px 0px 10px 10px;                            
+       
+       i{
+        font-size: 44px;
+        padding-left: 22px;
+        float: left;
+       }
+       .num{
+           padding-top: 12px;
+           padding-left: 15px;
+           float: left;
+       }
+    }
+}
+
+.nav-container{
+    position: relative;
+    padding-top: 46px;
+    z-index: 999;
+}
+.f-nav {
+     display: fixed;
+}
+#home{
+   padding-top: 46px; 
+   position: relative;
+   min-height: 100vh;
+   background-image: url(../img/fundo_form.jpg);
+   background-size: cover;
+   color:$branco;
+   z-index: 10;
+   .logo {
+       padding-top: 50px;
+   }
+   p{
+       font-weight: $light;
+       text-align: right;
+       span{
+           font-weight: $bold;
+       }
+   }
+   h1{
+        margin-top:22%;
+        font-size: 30px;
+        font-weight: $semi;
+        text-align: left;
+       span{
+           text-decoration: underline;
+       }
+   }
+   h2{
+       text-align: left !important;
+       font-weight: $light;
+       font-size: 22px;
+       span{
+           font-weight: $bold;
+       }
+   }
+   .bloco{
+       padding-bottom: 10px;
+       input[type=text]{ 
+           height: 45px;
+       }
+       button[type=submit]{ 
+        height: 45px;
+    }
+       .full{
+           width: 100%;          
+       }
+       .meio_e{
+           width: 49%;
+           float: left;
+           
+       }
+       .meio_d{
+           width: 49%;
+           float: right;
+       }
+   }
+        .btn{
+            margin-top: 8px;
+        }
+        .rodapesection{
+        position: absolute;
+        bottom: 50px;
+        }
+}
+// geral mobiles
+@media (min-width: 320px) and  (max-width:768px) {
+    #home{
+        .logo{
+            padding-top: 40px;
+        }
+        h1{
+            text-align: center;
+        }
+    }
+}
+//fim geral mobiles
+
+// <<<<<<<<<<<< fim sessao home >>>>>>>
+
+#emedweb{
+   padding-top: 46px; 
+   position: relative; 
+   min-height: 100vh;
+   background-color: #f7f7f8;
+   color: #000;
+}
+
+.pink{
+    background-color: #FF00ff;
+}
