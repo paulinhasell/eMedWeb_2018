@@ -12,7 +12,7 @@
 
     <!-- Bootstrap -->
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css?v5" rel="stylesheet" type="text/css" media="all" />
     <link href="dist/css/animsition.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,9 +29,9 @@
         <div class="topbar">
                 <div class="container">
                        <div class="row">
-                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
-                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
-                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                           <div class="col-lg-4 col-md-4 col-sm-0 col-xs-12"></div>
+                           <div class="col-lg-4 col-md-4 col-sm-0 col-xs-12"></div>
+                           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                <div class="teltopo">
                                 <span><i class="fa fa-phone-square"></i></span> <span class="num">Ligue para: 0800 633-3633</span>
                             </div>
@@ -43,12 +43,12 @@
     <section id="home" class="animsition-overlay">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="logo">
                         <img src="img/logo_topo.png" alt="logo eMedweb" title="logo EmedWeb">
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="row">
                        
                         <div class="col-xs-12">
@@ -59,18 +59,18 @@
                                                          
                             
                             <div class="col-xs-12">
-                                    <img src="img/seta_form.png" alt="emedweb" title="seta formulario" class="pull-left"> 
+                                    <img src="img/seta_form.png" alt="emedweb" title="seta formulario" class="img-responsive pull-left"> 
                                     <h2>Descubra <span>AGORA</span> o verdadeiro potencial de sua clínica</h2>
                                     <div class="pull-left col-xs-11 top10">
                                             <form>
                                        <div class="bloco">
                                            <div class="full">
-                                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="*Nome Completo">
+                                                    <input type="text" class="form-control" id="nome" placeholder="*Nome Completo">
                                             </div>        
                                        </div> 
                                        <div class="bloco">          
-                                                    <input type="text" class="form-control meio_e" id="exampleInputPassword1" placeholder="*Seu e-mail">
-                                                    <input type="text" class="form-control meio_d" id="exampleInputPassword1" placeholder="*Seu celular">
+                                                    <input type="text" class="form-control meio_e" id="email" placeholder="*Seu e-mail">
+                                                    <input type="text" class="form-control meio_d" id="tel" placeholder="*Seu celular">
                                         </div>                                                 
                                         <div class="bloco">               
                                          <button type="submit" class="btn btn-success full">QUERO RECEBER O CONTATO DE UM ESPECIALISTA</button>
@@ -89,7 +89,7 @@
             </div>
         </div>
         <div class="col-xs-12 rodapesection">
-           <a href="sobre.html" class="shortcut animsition-link"> <img src="img/btn_mais.png" alt="saiba mais" title="botao saiba mais" class="center-block"></a>
+           <a href="sobre.html" class="shortcut animsition-link"> <img src="img/btn_mais.png" alt="saiba mais" title="botao saiba mais" class="center-block animated infinite bounce"></a>
         </div>
     </section>
     <div class="clearfix">
@@ -106,15 +106,15 @@
 <script>
   $(document).ready(function() {
     $('.animsition-overlay').animsition({
-    inClass: 'fade-in-left',
-    outClass: 'fade-out-left',
+    inClass: 'fade-in-down',
+    outClass: 'fade-out-up',
     inDuration: 500,
     outDuration: 500,
     linkElement: '.animsition-link',
     })
   });
   </script> 
-</script>
+
 </body>
 
 </html>

@@ -15,11 +15,55 @@
  @media (min-width: 1920px) and (max-width:2559px) {
   #home{
     .logo{
-      padding-top: 100px;
+      padding-top: 160px;
     }
     h1{
-      
-      margin-top: 40%;
+       margin-top: 20%;
+    }
+    .bloco{
+      padding-bottom: 10px;
+      input[type=text]{ 
+          height: 52px;
+      }
+      button[type=submit]{ 
+       height: 52px;
+   }
+      .full{
+          width: 100%;          
+      }
+      .meio_e{
+          width: 49%;
+          float: left;
+          
+      }
+      .meio_d{
+          width: 49%;
+          float: right;
+      }
+  }
+  }
+  #emedweb{
+    h1{
+      font-size: 52px;
+      padding-top: 110px;
+      padding-bottom: 25px;
+    }
+    img{
+      width: 60%;
+  }
+  figure{
+      padding-bottom: 80px;
+      padding-top: 50px;
+  }
+  }
+  #aplicativo{
+    h1{
+      font-size: 52px;
+      padding-top: 110px;
+      padding-bottom: 25px;
+    }
+    figure{
+      padding-top: 110px;
     }
   }
 }
@@ -32,12 +76,176 @@
 /*++++++++++++++ Mobile small Layout: 320px.( iphone 3/4/5 ) */
 @media only screen and (max-width: 359px) {
 /*============================================================*/
-#home{
-  h1{
-    font-size: 0.7em;
-    margin-top: 20px;
+.topbar{
+  .teltopo{
+  i{
+    padding-top: 4px;
+    font-size: 34px;
   }
 }
+}
+#home{
+  padding-top: 30px;
+  .logo{
+    text-align: center;
+    img{
+    width: 60%;
+    }
+  }
+  
+  h1{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  p{
+    font-size: 12px;
+    font-weight: $light;
+    text-align: right;
+    span{
+        font-weight: $bold;
+    }
+}
+  .bloco{
+    padding-bottom: 6px;
+    input[type=text]{ 
+        height: 28px;
+    }
+    button[type=submit]{ 
+     height: 28px;
+ }
+    .full{
+        width: 100%;          
+    }
+    .meio_e{
+        width: 100%;
+        float: none;
+        margin-bottom: 6px;
+        
+    }
+    .meio_d{
+        width: 100%;
+        float: none;
+        margin-bottom: 0px;
+    }
+}
+     .btn{
+         margin-top: 4px;
+         font-size: 8px;
+     }
+     .rodapesection{
+      position: absolute;
+      bottom: 40px;
+      img{
+        width: 10%;
+      }
+      }
+}
+//pagina sobre emedweb
+#emedweb{
+  h1{
+    padding-top: 120px;
+    font-size: 18px;
+  }
+  img{
+    width: 82%;
+  }
+}
+figure{
+  padding-bottom: 40px;
+  padding-top: 0px;
+}
+.menubar{
+  line-height: 10px;
+  a{
+    font-size:10px;
+    line-height: 10px;
+  }
+}
+.alturamenu{
+  padding-top: 4px;
+}
+
+// <<<<<<<<<<<< fim sessao sobre e menu rodape >>>>>>>
+
+#aplicativo{
+  
+ h1{
+     padding-top: 110px;
+     padding-bottom: 15px;
+     font-size: 22px;
+     font-weight: $thin;
+     text-align: center;
+     color:#fff;
+     span{
+         font-weight: $bold;
+     }
+ }
+ p{
+   font-size: 10px;
+   padding-bottom: 55px;
+ }
+}
+
+.vertical-align{
+
+padding-top: 5%;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>> vantagens 
+#vantagens{
+  position: relative;  
+      color: #fff;
+      text-align: center;
+      font-weight: $light;
+      img{
+        width: 30%;
+      }
+      h1{
+          padding-top: 110px;
+          padding-bottom: 15px;
+          font-size: 18px;
+          font-weight: $thin;
+          text-align: center;
+          color:#fff;
+          span{
+              font-weight: $bold;
+          }
+      }
+      h2{
+          font-weight: $medio;
+          text-align: left;
+          font-size: 16px;
+      }
+      p{
+          text-align: left;
+          font-size:12px;
+          padding-top: 10px;
+      }
+      .boxicon{
+          width: 40px;
+          height: 40px;
+          padding: 8px;
+          background-color: $branco;
+          -moz-border-radius:50px 50px 50px 50px;
+  -webkit-border-radius:50px 50px 50px 50px;
+  border-radius:50px 50px 50px 50px;
+          i{
+              color: $vermelho;
+              font-size: 22px;
+          }
+      }
+}
+
+
 }/*===========================================================
   /*++++++++++++++ fim mobile 320px: */
   /*============================================================*/ 
@@ -50,9 +258,153 @@
   #home{
     h1{
       font-size: 0.8em;
-      margin-top: 60px;
+      padding-top: 20px;
     }
+    .logo{
+      text-align: center;
+      img{
+        width: 52%;
+      }
+    }
+    p{
+      font-size: 13px;
+    }
+    .bloco{
+      padding-bottom: 6px;
+      input[type=text]{ 
+          height: 40px;
+      }
+      button[type=submit]{ 
+       height: 40px;
+   }
+      .full{
+          width: 100%;          
+      }
+      .meio_e{
+          width: 100%;
+          float: left;
+          margin-bottom: 6px;
+          
+      }
+      .meio_d{
+          width: 100%;
+          float: right;
+      }
   }
+       .btn{
+           margin-top: 6px;
+           font-size: 10px;
+       }
+       .rodapesection{
+        position: absolute;
+        bottom: 80px;
+        img{
+          width: 10%;
+        }
+        }
+  }
+// sobre emedweb
+#emedweb{
+  h1{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 26px;
+  }
+  img{
+    width: 100%;
+  }
+}
+figure{
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+.menubar{
+  line-height: 10px;
+  a{
+    font-size:10px;
+    line-height: 10px;
+  }
+}
+.alturamenu{
+  padding-top: 4px;
+}
+#aplicativo{
+  
+  h1{
+      padding-top: 120px;
+      padding-bottom: 35px;
+      font-size: 28px;
+      font-weight: $thin;
+      text-align: center;
+      color:#fff;
+      span{
+          font-weight: $bold;
+      }
+  }
+  p{
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+ }
+ 
+ .vertical-align{
+ 
+ padding-top: 5%;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center;
+ align-items: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ }  
+
+ // >>>>>>>>>>>>>>>>>>>>>>>> vantagens 
+#vantagens{
+      h1{
+          padding-top: 110px;
+          padding-bottom: 25px;
+          font-size: 28px;
+      }
+      .carousel{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        height: 50vh;
+        
+        .item{
+            padding-top: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center;
+            h2{
+                text-align: center;
+                font-size: 20px;
+                font-weight: $medio;
+                padding-top: 25px;
+            }
+            p{
+                font-size:16px;
+                text-align: center;
+            }
+        }
+        .boxicon{
+          width: 80px;
+          height: 80px;
+          padding: 16px 10px 10px 10px;  
+         background-color: $branco;
+         -moz-border-radius:50px 50px 50px 50px;
+ -webkit-border-radius:50px 50px 50px 50px;
+ border-radius:50px 50px 50px 50px;
+         i{
+             color: $vermelho;
+             font-size: 26px;
+         }
+     }
+    }
+}
+
+
                     
 }/*===========================================================
   /*++++++++++++++ fim mobile 360px: */
@@ -66,9 +418,118 @@
   #home{
     h1{
       font-size: 0.9em;
-      margin-top: 60px;
+      padding-top: 60px;
     }
   }
+      .bloco{
+        .btn{
+          font-size: 10px;
+        }
+      }
+      .rodapesection{
+        position: absolute;
+        bottom: 50px;
+        }  
+        // sobre emedweb
+#emedweb{
+  h1{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 26px;
+  }
+  img{
+    width: 100%;
+  }
+}
+figure{
+  padding-bottom: 40px;
+  padding-top: 100px;
+}
+.menubar{
+  line-height: 10px;
+  a{
+    font-size:10px;
+    line-height: 10px;
+  }
+}
+.alturamenu{
+  padding-top: 4px;
+}
+
+#aplicativo{
+  
+  h1{
+      padding-top: 120px;
+      padding-bottom: 15px;
+      font-size: 26px;
+      font-weight: $thin;
+      text-align: center;
+      color:#fff;
+      span{
+          font-weight: $bold;
+      }
+  }
+  p{
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+ }
+ 
+ .vertical-align{
+ 
+ padding-top: 5%;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center;
+ align-items: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ }  
+// >>>>>>>>>>>>>>>>>>>>>>>> vantagens 
+#vantagens{
+  h1{
+      padding-top: 110px;
+      padding-bottom: 25px;
+      font-size: 28px;
+  }
+  .carousel{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    height: 50vh;
+    
+    .item{
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        h2{
+            text-align: center;
+            font-size: 20px;
+            font-weight: $medio;
+            padding-top: 25px;
+        }
+        p{
+            font-size:16px;
+            text-align: center;
+        }
+    }
+    .boxicon{
+      width: 80px;
+      height: 80px;
+      padding: 16px 10px 10px 10px;  
+     background-color: $branco;
+     -moz-border-radius:50px 50px 50px 50px;
+-webkit-border-radius:50px 50px 50px 50px;
+border-radius:50px 50px 50px 50px;
+     i{
+         color: $vermelho;
+         font-size: 26px;
+     }
+ }
+}
+}
       
   } /*===========================================================
   /*++++++++++++++ fim mobile 375px: */
@@ -82,8 +543,118 @@
 #home{
   h1{
     font-size: 1.0em;
-    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
+  
+  .bloco{
+    .btn{
+      font-size: 10px;
+    }
+  }
+  .rodapesection{
+    position: absolute;
+    bottom: 60px;
+    }
+}
+// sobre emedweb
+#emedweb{
+  h1{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 26px;
+  }
+  img{
+    width: 100%;
+  }
+}
+figure{
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+.menubar{
+  line-height: 10px;
+  a{
+    font-size:10px;
+    line-height: 10px;
+  }
+}
+.alturamenu{
+  padding-top: 4px;
+}
+#aplicativo{
+  
+  h1{
+      padding-top: 120px;
+      padding-bottom: 25px;
+      font-size: 32px;
+      font-weight: $thin;
+      text-align: center;
+      color:#fff;
+      span{
+          font-weight: $bold;
+      }
+  }
+  p{
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+ }
+ 
+ .vertical-align{
+ 
+ padding-top: 5%;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center;
+ align-items: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ }  
+// >>>>>>>>>>>>>>>>>>>>>>>> vantagens 
+#vantagens{
+  h1{
+      padding-top: 140px;
+      padding-bottom: 25px;
+      font-size: 36px;
+  }
+  .carousel{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    height: 50vh;
+    
+    .item{
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        h2{
+            text-align: center;
+            font-size: 20px;
+            font-weight: $medio;
+            padding-top: 25px;
+        }
+        p{
+            font-size:16px;
+            text-align: center;
+        }
+    }
+    .boxicon{
+      width: 80px;
+      height: 80px;
+      padding: 16px 10px 10px 10px;  
+     background-color: $branco;
+     -moz-border-radius:50px 50px 50px 50px;
+-webkit-border-radius:50px 50px 50px 50px;
+border-radius:50px 50px 50px 50px;
+     i{
+         color: $vermelho;
+         font-size: 26px;
+     }
+ }
+}
 }
            
     } /*===========================================================
@@ -95,7 +666,61 @@
 /*============================================================*/
 @media (min-width: 768px) and (max-width: 1279px) and (orientation : portrait) {
 
-       
+       // sobre emedweb
+#emedweb{
+  h1{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    
+  }
+  img{
+    width: 100%;
+  }
+}
+figure{
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+.menubar{
+  
+  a{
+    font-size:10px;
+    
+  }
+}
+.alturamenu{
+  padding-top: 8px;
+}
+#aplicativo{
+  
+  h1{
+      padding-top: 120px;
+      padding-bottom: 25px;
+      font-size: 48px;
+      font-weight: $thin;
+      text-align: center;
+      color:#fff;
+      span{
+          font-weight: $bold;
+      }
+  }
+  p{
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+ }
+ 
+ .vertical-align{
+ 
+ padding-top: 5%;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center;
+ align-items: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ }  
+
 } /*===========================================================
 /*++++++++++++++ fim ipad portrait: */
 /*============================================================*/
@@ -104,7 +729,30 @@
 /*++++++++++++++ ipad landscape: */
 /*============================================================*/
 @media (min-width: 768px) and (max-width: 1279px) and (orientation : landscape) {
-   
+  #emedweb{
+    h1{
+    
+      padding-bottom: 80px;
+      
+    }
+    
+  }
+  
+  .menubar{
+    
+    a{
+      font-size:11px;
+      
+    }
+  }
+  #aplicativo{
+  
+    
+    p{
+      font-size: 16px;
+      padding-bottom: 58px;
+    }
+  }
 
 } /*===========================================================
 /*++++++++++++++ fim ipad landscape: */
