@@ -1,17 +1,18 @@
 /*!
- * Copyright 2017.
- * http://www.plusok.com.br
- * Programado com pré-processador SASS. (GULP)
+ * Copyright 2018.
+ * Ale Paula Sell
+ * Compilado - SASS. (GULP)
  */
  
 @import '../../componentes/bootstrap-sass/assets/stylesheets/bootstrap';
 @import "animate";
 @import "reset";
+@import "drawer";
 
 html,
 body {
   font-family: $fontepri;
-  overflow: hidden !important;
+  overflow: hidden;
   border: 0;
   margin: 0;
   padding: 0;
