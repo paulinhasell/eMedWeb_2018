@@ -14,7 +14,9 @@
     .teltopo{
        background-color: $laranja;
        color: $branco;
+       width: 80%;
        height: 46px;
+       float: right;
        -moz-border-radius:0px 0px 10px 10px;
     -webkit-border-radius:0px 0px 10px 10px;
     border-radius:0px 0px 10px 10px;                            
@@ -25,9 +27,12 @@
         float: left;
        }
        .num{
-           padding-top: 12px;
-           padding-left: 15px;
+           padding-top: 4px;
+           padding-left: 25px;
+           text-align: center;
            float: left;
+           font-size: 24px;
+           font-weight: $semi;
        }
     }
 }
@@ -35,7 +40,7 @@
 .nav-container{
     position: relative;
     padding-top: 46px;
-    z-index: 999;
+    z-index: 105;
 }
 .f-nav {
      display: fixed;
@@ -156,7 +161,7 @@
       
   }
   img{
-      width: 52%;
+      width: 82%;
   }
   figure{
       padding-bottom: 80px;
@@ -192,6 +197,83 @@
 .verdeclaro {
     background-color: $verdeclaro;
 }
+
+
+/*==========================================================
+               counter  style Two
+============================================================*/
+.semi{
+    font-weight: 500;
+    font-size:0.8rem
+}
+.borda {
+    padding: 5px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px;                            
+         
+}
+
+.sections {
+    padding-top: 25px;
+    padding-bottom:5px;
+    
+    
+}
+.overlay {
+    
+     height: auto;
+}
+.counter_two{
+      height: auto;
+      width: 80%;
+    
+}
+
+.counter_two .main_counter_two .single_counter_two_right{
+    margin-top:20px;
+    display: block;
+}
+.counter_two .main_counter_two .single_counter_two_right i{
+    color:$verde;
+    font-size:2.125rem;
+    margin-bottom:10px;
+    line-height: 2rem;
+    display: block;
+    
+}
+.counter_two .main_counter_two .single_counter_two_right h2{
+    color:$branco;
+    margin-bottom:10px;
+    line-height: 0;
+    font-weight: $semi;
+
+}
+.counter_two .main_counter_two .single_counter_two_right p{
+    color:$branco;
+    font-weight: $medio;
+    font-size:0.8rem
+}
+
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .sections {
+        padding-top: 5px;
+        padding-bottom:5px;
+        
+        
+    }
+    .counter_two {
+        height: auto;
+    }
+    .overlay{
+        height: auto;
+    }
+}
+
 
 
 
@@ -304,3 +386,121 @@ border-radius:50px 50px 50px 50px;
     }
    }     
 }
+// >>>>>>>>>>>>> fim sessao vantagens
+
+#adicionais{
+   
+    background: url(../img/fundo_adicionais.jpg) right no-repeat;
+    background-size: 100vh;
+    position: relative;  
+        color: $branco;
+        text-align: center;
+        font-weight: $light;
+        h1{
+            padding-top: 70px;
+            padding-bottom: 45px;
+            font-size: 38px;
+            font-weight: $thin;
+            text-align: center;
+            color:#fff;
+            span{
+                font-weight: $bold;
+            }
+        }
+        .medico{
+            min-width: 634px;
+            min-height: 100vh;
+            
+        }
+        #accordion{
+            border-radius:20px;
+            overflow: hidden;
+            background-color: $verdeclaro !important;
+        }
+        #accordion .panel{
+            border: none;
+            box-shadow: none;
+            border-radius:20px;
+            margin: 0;
+            background-color: $verdeclaro;
+        }
+        #accordion .panel:last-child{
+            border-bottom: none;
+            background-color: $verdeclaro;
+        }
+        #accordion .panel-heading{
+            padding: 2px;
+            border: none;
+            background-color: $verdeclaro;
+        }
+        #accordion .panel-title a{
+            display: block;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            color: $verdeclaro;
+            text-transform: uppercase;
+            background: $branco;
+            text-align: left;
+            border: none;
+            border-radius: 20px;
+            position: relative;
+            transition: all 0.3s ease 0s;
+        }
+        #accordion .panel-title a.collapsed{
+            background: $verdeclaro;
+            color: $branco;
+            border: 1px solid $branco;
+            
+        }
+        #accordion .panel-title a.collapsed:hover{
+            background: $branco;
+            color: $verdeclaro;
+        }
+        #accordion .panel-title a:after,
+        #accordion .panel-title a.collapsed:after{
+            content: "\f107";
+            font-family: fontawesome;
+            font-size: 18px;
+            color:$verdeclaro;
+            position: absolute;
+            top: 10px;
+            right:20px;
+            transition: all 0.3s ease-in-out 0s;
+        }
+        #accordion .panel-title a.collapsed:after{
+            content: "\f106";
+            color: $branco;
+        }
+        #accordion .panel-title a.collapsed:hover:after{
+            color:$verdeclaro;
+        }
+        #accordion .panel-body{
+            padding: 10px;
+            border: none;
+            font-size: 14px;
+            color:$branco;
+            line-height: 20px;
+            background-color: $verdeclaro;
+            text-align: left;
+        }
+ }
+ #clientes{
+     
+    background-size: 100vh;
+    position: relative;  
+        color: $branco;
+        text-align: center;
+        font-weight: $light;
+        h1{
+            padding-top: 90px;
+            padding-bottom: 45px;
+            font-size: 38px;
+            font-weight: $thin;
+            text-align: center;
+            color:#fff;
+            span{
+                font-weight: $bold;
+            }
+        }
+ }
