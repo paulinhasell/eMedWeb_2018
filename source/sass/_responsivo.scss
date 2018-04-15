@@ -240,7 +240,55 @@
   padding-top: 8px;
 }
 
+#clientes{
+    
+    background-size: 100vh;
+    position: relative;  
+        color: $branco;
+        text-align: center;
+        font-weight: $light;
+        
+        h1{
+            padding-top: 90px;
+            padding-bottom: 45px;
+            font-size: 16px;
+            font-weight: $thin;
+            text-align: center;
+            color:#fff;
+            span{
+                font-weight: $bold;
+            }
+        }
+        hr{
+            border: dotted #fff 1px;
+        }
+        h2{
+            font-size: 13px;
+            text-align: left;
+            font-weight: $semi;
+            padding-bottom: 15px;
+        }
+        figure{
+            padding-top: 15px;
 
+        }
+        p{
+            font-size: 10px;
+            text-align: left;
+            padding-top: 15px;
+        }
+        h3{
+            font-weight: $semi;
+            font-style: italic;
+            text-align: left;
+            padding-top: 15px;
+           
+        }
+ }
+ .barra{
+    height:200px;
+    
+ }
 
 // <<<<<<<<<<<< fim sessao sobre e menu rodape >>>>>>>
 

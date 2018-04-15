@@ -486,12 +486,13 @@ border-radius:50px 50px 50px 50px;
         }
  }
  #clientes{
-     
+    
     background-size: 100vh;
     position: relative;  
         color: $branco;
         text-align: center;
         font-weight: $light;
+        
         h1{
             padding-top: 90px;
             padding-bottom: 45px;
@@ -503,4 +504,32 @@ border-radius:50px 50px 50px 50px;
                 font-weight: $bold;
             }
         }
+        hr{
+            border: dotted #fff 1px;
+        }
+        h2{
+            font-size: 22px;
+            text-align: left;
+            font-weight: $semi;
+            padding-bottom: 15px;
+        }
+        figure{
+            padding-top: 15px;
+        }
+        p{
+            font-size: 15px;
+            text-align: left;
+            padding-top: 15px;
+        }
+        h3{
+            font-weight: $semi;
+            font-style: italic;
+            text-align: left;
+            padding-top: 15px;
+           
+        }
+ }
+ .barra{
+    height:300px;
+    
  }
