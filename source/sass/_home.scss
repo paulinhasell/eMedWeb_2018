@@ -505,7 +505,7 @@ border-radius:50px 50px 50px 50px;
             }
         }
         hr{
-            border: dotted #fff 1px;
+            border: dashed #fff 1px;
         }
         h2{
             font-size: 22px;
@@ -532,4 +532,59 @@ border-radius:50px 50px 50px 50px;
  .barra{
     height:300px;
     
+ }
+ /* contato */
+ #contato{
+     padding-top: 90px;
+     h1{
+        padding-bottom: 45px;
+        font-size: 38px;
+        font-weight: $thin;
+        text-align: center;
+        span{
+            font-weight: $bold;
+        }
+
+     }
+     h2{
+         font-weight: $semi;
+         padding-bottom: 20px;
+         padding-top: 20px;
+         
+     }
+     p{
+         font-weight: $light;
+         span{
+             font-weight: $semi;
+             color:$vermelho;
+         }
+         img{
+             float: left;
+         }
+         a{
+             color: $vermelho;
+             padding-top: 21px;
+             float: left;
+         }
+         a:hover{
+             color:$verde;
+         }
+     }
+    
+    .boxtelefone{
+
+    }
+    .rodape{
+        background: url(../img/medico.jpg) top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+        
+   .nota{
+       
+       font-weight: $semi;
+       font-size: 11px;
+       padding-top: 75px;
+   }
  }

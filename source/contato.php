@@ -7,16 +7,11 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>EmedWeb Sistema para Clínicas </title>
-
-    <!-- Bootstrap -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <title>EmedWeb Sistema para Clínicas</title>       
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="dist/css/animsition.min.css" rel="stylesheet">
+    <link href="dist/css/animsition.min.css" rel="stylesheet">
     <link href="css/sandbox.css" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,28 +19,27 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
-<body class="azul containerfull drawer drawer--left ">
+<body class="containerfull drawer drawer--left">
     <header>
         <button type="button" class="drawer-toggle drawer-hamburger">
             <span class="sr-only">toggle navigation</span>
             <span class="drawer-hamburger-icon"></span>
           </button>
-      
+                           
           <nav class="drawer-nav" role="navigation">
                 <ul class="drawer-menu">       
                   <li><img src="img/logo_int.png" class="center-block top10"></li>
                <br>
                  
-                  <li><a class="drawer-menu-item animsition-link" href="sobre.html">Porque usar o eMedWeb?</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="app.html">Aplicativo Gratuito</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="vantagens.html">Vantagens Imbatíveis</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="adicionais.html">Adicionais Exclusivos</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="clientes.html">Depoimentos</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="contato.html">Sobre Nós</a></li>
+                  <li><a class="drawer-menu-item animsition-link" href="sobre.php">Porque usar o eMedWeb?</a></li>
+                  <li><a class="drawer-menu-item animsition-link" href="app.php">Aplicativo Gratuito</a></li>
+                  <li><a class="drawer-menu-item animsition-link" href="vantagens.php">Vantagens Imbatíveis</a></li>
+                  <li><a class="drawer-menu-item animsition-link" href="adicionais.php">Adicionais Exclusivos</a></li>
+                  <li><a class="drawer-menu-item animsition-link" href="clientes.php">Depoimentos</a></li>
+                  <li><a class="drawer-menu-item animsition-link" href="contato.php">Sobre Nós</a></li>
                   <hr>
                   <div class="bg-green">
-                  <li><a class="drawer-menu-item animsition-link boldI" href="index.html">Cadastre-se e receba contato de um especialista</a></li>
+                  <li><a class="drawer-menu-item animsition-link boldI" href="index.php">Cadastre-se e receba contato de um especialista</a></li>
                 </div>
                   <hr>
                 </ul>
@@ -64,48 +58,51 @@
           </div>
     </div>
 <div class="clearfix"></div>
-<div class="menubar">
-        <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 azul alturamenu"><a href="app.php" class="animsition-link">Aplicativo Gratuito</a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 vermelho alturamenu "><a href="vantagens.php" class="animsition-link">Vantagens Imbativeis</a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 verdeclaro alturamenu"><a href="adicionais.php" class="animsition-link">Adicionais Exclusivos</a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 verde alturamenu"><a href="clientes.php" class="animsition-link">Depoimentos de Clínicas</a></div>
-                </div>
-            </div>
-</div>
+
     </header>
     <div class="clearfix"></div>
      <div class="animsition-overlay">      
-    <section id="aplicativo">
+    <section id="contato">
         <div class="container">
-        <h1> Aplicativo <span>gratuito</span> para download</h1>
-        <p>Ao contratar o eMedWeb, você automaticamente já poderá usar o aplicativo gratuitamente para facilitar o seu dia. Nele você terá sua agenda em tempo real ou poderá obter imagens de seus pacientes para vincular em sua ficha médica.</p>
-       <div class="row">
-           <div class="col-lg-8 col-md-8 col-sm-8 col-xs-6">
-               <figure>
-                    <img src="img/app_img.png" class="img-responsive animated zoomInDown" title="Download aplicativo EmedMob" alt="Aplicativo emedMob">
-               </figure>
-           </div>
-           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-               <div class="vertical-align">
-                <figure>
-                        <img src="img/link_download.png" class="img-responsive" title="Download aplicativo EmedMob" alt="Aplicativo emedMob">
-                   </figure>
-                </div>    
-           </div>
-       </div>
-    </div>
-    
+            <div class="col-md-12">
+            <h1> Há <span> 18 anos</span> criamos soluções <span>inovadoras</span> para o setor da saúde</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h2></h2>
+                <p>
+                    A <span>EMED Tecnologia</span> tem seu foco dedicado à soluções para gestão de clínicas médicas. No mercado desde o ano 2000, é pioneira no uso do conceito de um sistema online que pode ser totalmente acessado de qualquer lugar através da Internet.
+                </p>
+                <h2>Missão</h2>
+                <p>Nossa missão é ser um agente de transformação, criando soluções de tecnologia que ajudem aos nossos Clientes da área Saúde prestarem melhores serviços</p>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h2>Tecnologia Própria</h2>
+                <p>A <span>EMED</span> provê totalmente suas soluções informatizadas através de equipe própria de consultores e desenvolvedores. Esta estrutura permite uma evolução constante dos produtos e serviços oferecidos permitindo agilidade quando se faz necessária alguma customização.</p>
+                <h2></h2>
+                <p><img src="img/logo_emed.jpg"> <a href="#">| Visite nosso site</a></p>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="rodape">
+
+                </div>
+            </div>
+        </div>
+
+        
+    </div>        
     </section>
-   
 </div>
-    <!-- scripts-->
+     <!-- scripts-->
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
   <script src="https://use.fontawesome.com/5cb466a7f4.js"></script>
   <script src="dist/js/drawer.js" charset="utf-8"></script>
+  
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script scr="main.js"></script>
 <script src="dist/js/animsition.min.js" charset="utf-8"></script> 
 <script>
@@ -122,6 +119,27 @@ $(document).ready(function() {
       $(document).ready(function() {
         $('.drawer').drawer();
       });
+     
+    
+		(function($){
+			$(window).load(function(){
+				
+				
+				
+				$("#depoimentos").mCustomScrollbar({
+					theme:"rounded-dots",
+					scrollInertia:300
+				});
+				
+				
+				
+				
+				
+				
+				
+			});
+		})(jQuery);
+	
     </script>
 
 </body>

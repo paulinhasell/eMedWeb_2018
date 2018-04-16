@@ -32,24 +32,25 @@
             <span class="drawer-hamburger-icon"></span>
           </button>
       
+                               
           <nav class="drawer-nav" role="navigation">
-                <ul class="drawer-menu">       
-                  <li><img src="img/logo_int.png" class="center-block top10"></li>
-               <br>
-                 
-                  <li><a class="drawer-menu-item animsition-link" href="sobre.html">Porque usar o eMedWeb?</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="app.html">Aplicativo Gratuito</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="vantagens.html">Vantagens Imbatíveis</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="adicionais.html">Adicionais Exclusivos</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="clientes.html">Depoimentos</a></li>
-                  <li><a class="drawer-menu-item animsition-link" href="contato.html">Sobre Nós</a></li>
-                  <hr>
-                  <div class="bg-green">
-                  <li><a class="drawer-menu-item animsition-link boldI" href="index.html">Cadastre-se e receba contato de um especialista</a></li>
-                </div>
-                  <hr>
-                </ul>
-              </nav>
+                    <ul class="drawer-menu">       
+                      <li><img src="img/logo_int.png" class="center-block top10"></li>
+                   <br>
+                     
+                      <li><a class="drawer-menu-item animsition-link" href="sobre.php">Porque usar o eMedWeb?</a></li>
+                      <li><a class="drawer-menu-item animsition-link" href="app.php">Aplicativo Gratuito</a></li>
+                      <li><a class="drawer-menu-item animsition-link" href="vantagens.php">Vantagens Imbatíveis</a></li>
+                      <li><a class="drawer-menu-item animsition-link" href="adicionais.php">Adicionais Exclusivos</a></li>
+                      <li><a class="drawer-menu-item animsition-link" href="clientes.php">Depoimentos</a></li>
+                      <li><a class="drawer-menu-item animsition-link" href="contato.php">Sobre Nós</a></li>
+                      <hr>
+                      <div class="bg-green">
+                      <li><a class="drawer-menu-item animsition-link boldI" href="index.php">Cadastre-se e receba contato de um especialista</a></li>
+                    </div>
+                      <hr>
+                    </ul>
+                  </nav>
     <div class="topbar">
             <div class="container-fluid">
                    <div class="row">

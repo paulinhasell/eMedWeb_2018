@@ -26,6 +26,13 @@ gulp.task('html', function() {
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('./dist'));
 });
+//task para o php
+gulp.task('php', function() {
+  return gulp.src('source/*.php')
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(gulp.dest('./dist'));
+});
+
 
 // tarefa para watch 
 gulp.task("watch", function() {
@@ -37,9 +44,9 @@ gulp.task("watchjs", function() {
 });
 // tarefa para watch 
 gulp.task("watchhtml", function() {
-  gulp.watch("source/*.php", ["html"]);
+  gulp.watch("source/*.php", ["php"]);
 });
 
 
 // chamar todas as tarefas
-gulp.task("default", ["sass", "minify-js", "watch", "html", "watchjs", "watchhtml"]);
+gulp.task("default", ["sass", "minify-js", "watch", "html", "php","watchjs", "watchhtml"]);

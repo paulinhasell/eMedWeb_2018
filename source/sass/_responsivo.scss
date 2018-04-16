@@ -102,6 +102,10 @@
       padding-top: 110px;
     }
   }
+  .barra{
+    height:550px;
+    
+ }
 }
 /*===========================================================
   /*++++++++++++++ FIM DESKTOP LARGE 1920px: */
@@ -260,16 +264,16 @@
             }
         }
         hr{
-            border: dotted #fff 1px;
+            border: dashed #fff 1px;
         }
         h2{
-            font-size: 13px;
+            font-size: 12px;
             text-align: left;
             font-weight: $semi;
             padding-bottom: 15px;
         }
         figure{
-            padding-top: 15px;
+            padding-top: 45px;
 
         }
         p{
@@ -289,6 +293,7 @@
     height:200px;
     
  }
+ 
 
 // <<<<<<<<<<<< fim sessao sobre e menu rodape >>>>>>>
 
@@ -464,6 +469,62 @@ justify-content: center;
           background-color: $verdeclaro;
           text-align: left;
       }
+}
+/* contato */
+#contato{
+    padding-top: 80px;
+    h1{
+       padding-bottom: 15px;
+       font-size: 14px;
+       font-weight: $thin;
+       text-align: center;
+       span{
+           font-weight: $bold;
+       }
+
+    }
+    h2{
+        font-weight: $semi;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 12px;
+        
+    }
+    p{
+        font-weight: $light;
+        font-size: 10px;
+        span{
+            font-weight: $semi;
+            color:$vermelho;
+            font-size: 10px;
+        }
+        img{
+            float: left;
+        }
+        a{
+            color: $vermelho;
+            padding-top: 25px;
+            float: left;
+        }
+        a:hover{
+            color:$verde;
+        }
+    }
+   
+   .boxtelefone{
+
+   }
+   .rodape{
+       display: none;
+
+   }
+       
+  .nota{
+      
+      font-weight: $semi;
+      font-size: 11px;
+      padding-top: 75px;
+  }
 }
 
 }/*===========================================================
@@ -764,7 +825,112 @@ justify-content: center;
       }
 }
 
-                    
+#clientes{
+    
+    background-size: 100vh;
+    position: relative;  
+        color: $branco;
+        text-align: center;
+        font-weight: $light;
+        
+        h1{
+            padding-top: 90px;
+            padding-bottom: 45px;
+            font-size: 20px;
+            font-weight: $thin;
+            text-align: center;
+            color:#fff;
+            span{
+                font-weight: $bold;
+            }
+        }
+        hr{
+            border: dashed #fff 1px;
+        }
+        h2{
+            font-size: 14px;
+            text-align: left;
+            font-weight: $semi;
+            padding-bottom: 15px;
+        }
+        figure{
+            padding-top: 55px;
+
+        }
+        p{
+            font-size: 12px;
+            text-align: left;
+            padding-top: 15px;
+        }
+        h3{
+            font-weight: $semi;
+            font-style: italic;
+            text-align: left;
+            padding-top: 15px;
+           
+        }
+ }
+ .barra{
+    height:300px;
+    
+ }
+ 
+/* contato */
+#contato{
+    padding-top: 80px;
+    h1{
+       padding-bottom: 22px;
+       font-size: 22px;
+       font-weight: $thin;
+       text-align: center;
+       span{
+           font-weight: $bold;
+       }
+
+    }
+    h2{
+        font-weight: $semi;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    p{
+        font-weight: $light;
+        font-size: 12px;
+        span{
+            font-weight: $semi;
+            color:$vermelho;
+            font-size: 12px;
+        }
+        img{
+            float: left;
+        }
+        a{
+            color: $vermelho;
+            padding-top: 25px;
+            float: left;
+        }
+        a:hover{
+            color:$verde;
+        }
+    }
+   
+   .boxtelefone{
+
+   }
+   .rodape{
+       display: none;
+
+   }
+       
+  .nota{
+      
+      font-weight: $semi;
+      font-size: 11px;
+      padding-top: 75px;
+  }
+}
 }/*===========================================================
   /*++++++++++++++ fim mobile 360px: */
   /*============================================================*/ 
@@ -1029,7 +1195,111 @@ border-radius:50px 50px 50px 50px;
           text-align: left;
       }
 }
+#clientes{
+    
+    background-size: 100vh;
+    position: relative;  
+        color: $branco;
+        text-align: center;
+        font-weight: $light;
+        
+        h1{
+            padding-top: 90px;
+            padding-bottom: 45px;
+            font-size: 22px;
+            font-weight: $thin;
+            text-align: center;
+            color:#fff;
+            span{
+                font-weight: $bold;
+            }
+        }
+        hr{
+            border: dashed #fff 1px;
+        }
+        h2{
+            font-size: 14px;
+            text-align: left;
+            font-weight: $semi;
+            padding-bottom: 15px;
+        }
+        figure{
+            padding-top: 55px;
 
+        }
+        p{
+            font-size: 12px;
+            text-align: left;
+            padding-top: 15px;
+        }
+        h3{
+            font-weight: $semi;
+            font-style: italic;
+            text-align: left;
+            padding-top: 15px;
+           
+        }
+ }
+ .barra{
+    height:340px;
+    
+ }
+/* contato */
+#contato{
+    padding-top: 80px;
+    h1{
+       padding-bottom: 22px;
+       font-size: 22px;
+       font-weight: $thin;
+       text-align: center;
+       span{
+           font-weight: $bold;
+       }
+
+    }
+    h2{
+        font-weight: $semi;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    p{
+        font-weight: $light;
+        font-size: 12px;
+        span{
+            font-weight: $semi;
+            color:$vermelho;
+            font-size: 12px;
+        }
+        img{
+            float: left;
+        }
+        a{
+            color: $vermelho;
+            padding-top: 25px;
+            float: left;
+        }
+        a:hover{
+            color:$verde;
+        }
+    }
+   
+   .boxtelefone{
+
+   }
+   .rodape{
+       display: none;
+
+   }
+       
+  .nota{
+      
+      font-weight: $semi;
+      font-size: 11px;
+      padding-top: 75px;
+  }
+}
       
   } /*===========================================================
   /*++++++++++++++ fim mobile 375px: */
@@ -1296,6 +1566,111 @@ border-radius:50px 50px 50px 50px;
           text-align: left;
       }
 }
+#clientes{
+    
+    background-size: 100vh;
+    position: relative;  
+        color: $branco;
+        text-align: center;
+        font-weight: $light;
+        
+        h1{
+            padding-top: 90px;
+            padding-bottom: 45px;
+            font-size: 26px;
+            font-weight: $thin;
+            text-align: center;
+            color:#fff;
+            span{
+                font-weight: $bold;
+            }
+        }
+        hr{
+            border: dashed #fff 1px;
+        }
+        h2{
+            font-size: 14px;
+            text-align: left;
+            font-weight: $semi;
+            padding-bottom: 15px;
+        }
+        figure{
+            padding-top: 55px;
+
+        }
+        p{
+            font-size: 12px;
+            text-align: left;
+            padding-top: 15px;
+        }
+        h3{
+            font-weight: $semi;
+            font-style: italic;
+            text-align: left;
+            padding-top: 15px;
+           
+        }
+ }
+ .barra{
+    height:400px;
+    
+ }
+ /* contato */
+#contato{
+    padding-top: 80px;
+    h1{
+       padding-bottom: 22px;
+       font-size: 22px;
+       font-weight: $thin;
+       text-align: center;
+       span{
+           font-weight: $bold;
+       }
+
+    }
+    h2{
+        font-weight: $semi;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    p{
+        font-weight: $light;
+        font-size: 12px;
+        span{
+            font-weight: $semi;
+            color:$vermelho;
+            font-size: 12px;
+        }
+        img{
+            float: left;
+        }
+        a{
+            color: $vermelho;
+            padding-top: 25px;
+            float: left;
+        }
+        a:hover{
+            color:$verde;
+        }
+    }
+   
+   .boxtelefone{
+
+   }
+   .rodape{
+       display: none;
+
+   }
+       
+  .nota{
+      
+      font-weight: $semi;
+      font-size: 11px;
+      padding-top: 75px;
+  }
+}
          
     } /*===========================================================
     /*++++++++++++++ Fim mobile 414px: */
@@ -1308,6 +1683,7 @@ border-radius:50px 50px 50px 50px;
     
 
        // sobre emedweb
+// sobre emedweb    
 #emedweb{
   h1{
     padding-top: 120px;
@@ -1332,6 +1708,32 @@ figure{
 .alturamenu{
   padding-top: 8px;
 }
+.borda {
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px;                            
+         
+}
+.counter_two{
+    height: auto;
+    width: 100%;
+  
+}
+.counter_two .main_counter_two .single_counter_two_right i{
+    color:$verde;
+    font-size:2.225rem;
+    margin-bottom:10px;
+    line-height: 2rem;
+    display: block;
+    
+}
+.counter_two .main_counter_two .single_counter_two_right p{
+    color:$branco;
+    font-weight: $medio;
+    font-size:0.8rem
+}
+
+
 #aplicativo{
   
   h1{
@@ -1381,6 +1783,48 @@ figure{
       }
       
 }
+#clientes{
+    
+    background-size: 100vh;
+    position: relative;  
+        color: $branco;
+        text-align: center;
+        font-weight: $light;
+        
+        h1{
+            
+            font-weight: $thin;
+            text-align: center;
+            color:#fff;
+            span{
+                font-weight: $bold;
+            }
+        }
+        hr{
+            border: dashed #fff 1px;
+        }
+        
+        figure{
+            padding-top: 55px;
+
+        }
+        p{
+            font-size: 12px;
+            text-align: left;
+            padding-top: 15px;
+        }
+        h3{
+            font-weight: $semi;
+            font-style: italic;
+            text-align: left;
+            padding-top: 15px;
+           
+        }
+ }
+ .barra{
+    height:610px;
+    
+ }
 } /*===========================================================
 /*++++++++++++++ fim ipad portrait: */
 /*============================================================*/
@@ -1424,6 +1868,10 @@ figure{
     }
   }
 
+  .barra{
+    height:450px;
+    
+ }
 } /*===========================================================
 /*++++++++++++++ fim ipad landscape: */
 /*============================================================*/
