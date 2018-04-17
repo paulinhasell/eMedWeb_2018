@@ -139,9 +139,8 @@ $sql .= "values ('', '$nome','$email','$tel')";
 		$mail->From = "$email"; // Seu e-mail
 		$mail->FromName = "$nome"  ; // Seu nome
 		$mail->Sender = "envia@webfocobrasil.com.br"; 
-		$mail->AddAddress('alessandra.sell@emed.com.br');
-		
-		//$mail->AddAddress('comercial.emed@emed.com.br');
+		//$mail->AddAddress('alessandra.sell@emed.com.br');
+		$mail->AddAddress('comercial.emed@emed.com.br');
 		
 		
 		
