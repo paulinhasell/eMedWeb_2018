@@ -64,14 +64,34 @@
        }
    }
    h1{
-        padding-top:25%;
-        font-size: 30px;
-        font-weight: $semi;
-        text-align: left;
+        padding-top:15%;
+        font-size: 42px;
+        font-weight: $bold;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 44px;
        span{
            text-decoration: underline;
        }
+    
    }
+   .box{
+    margin-top: 30px;   
+    padding: 10px;
+    border: 1px solid $branco;
+    
+   }
+   .subtexto{
+    
+    font-weight: $medio;
+    text-align: left;
+    font-size: 16px;
+    i{
+        font-size: 22px;
+    }
+    
+    
+}
    h2{
        text-align: left !important;
        font-weight: $light;

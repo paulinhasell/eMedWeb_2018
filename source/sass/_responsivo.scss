@@ -142,9 +142,35 @@
   }
   
   h1{
-    font-size: 12px;
-    padding-top: 10px;
-  }
+    padding-top:15%;
+    font-size: 20px;
+    font-weight: $bold;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 24px;
+   span{
+       text-decoration: underline;
+   }
+
+}
+.box{
+margin-top: 20px;   
+padding: 10px;
+border: 1px solid $branco;
+
+}
+.subtexto{
+
+font-weight: $medio;
+text-align: left;
+font-size: 11px;
+padding-bottom: 4px;
+i{
+    font-size: 15px;
+}
+
+
+}
   h2{
     font-size: 18px;
   }
@@ -554,8 +580,34 @@ justify-content: center;
       }
   #home{
     h1{
-      font-size: 0.8em;
-      padding-top: 20px;
+        padding-top:15%;
+        font-size: 20px;
+        font-weight: $bold;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 24px;
+       span{
+           text-decoration: underline;
+       }
+    
+    }
+    .box{
+    margin-top: 20px;   
+    padding: 10px;
+    border: 1px solid $branco;
+    
+    }
+    .subtexto{
+    
+    font-weight: $light;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 8px;
+    i{
+        font-size: 15px;
+    }
+    
+    
     }
     .logo{
       text-align: center;
@@ -958,15 +1010,53 @@ justify-content: center;
   }
   #home{
     h1{
-      font-size: 0.9em;
-      padding-top: 60px;
+        padding-top:20%;
+        font-size: 24px;
+        font-weight: $bold;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 24px;
+       span{
+           text-decoration: underline;
+       }
+    
     }
-  }
-      .bloco{
+    .box{
+    margin-top: 40px;   
+    padding: 10px;
+    border: 1px solid $branco;
+    
+    }
+    .subtexto{
+    
+    font-weight: $light;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 8px;
+    i{
+        font-size: 22px;
+    }
+    
+    
+    }
+    .bloco{
+        .meio_e{
+            width: 100%;
+            float: left;
+            margin-bottom: 10px;
+            
+        }
+        .meio_d{
+            width: 100%;
+            float: right;
+        }
         .btn{
           font-size: 10px;
         }
       }
+    
+  }
+      
       .rodapesection{
         position: absolute;
         bottom: 50px;
@@ -1327,17 +1417,52 @@ border-radius:50px 50px 50px 50px;
   }
   }
 #home{
-  h1{
-    font-size: 1.0em;
-    padding-top: 60px;
-    padding-bottom: 20px;
-  }
-  
-  .bloco{
-    .btn{
-      font-size: 10px;
+    h1{
+        padding-top:20%;
+        font-size: 24px;
+        font-weight: $bold;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 26px;
+       span{
+           text-decoration: underline;
+       }
+    
     }
-  }
+    .box{
+    margin-top: 40px;   
+    padding: 10px;
+    border: 1px solid $branco;
+    
+    }
+    .subtexto{
+    
+    font-weight: $light;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 12px;
+    i{
+        font-size: 22px;
+    }
+    
+    
+    }
+    .bloco{
+        .meio_e{
+            width: 100%;
+            float: left;
+            margin-bottom: 10px;
+            
+        }
+        .meio_d{
+            width: 100%;
+            float: right;
+        }
+        .btn{
+          font-size: 10px;
+        }
+      }
+  
   .rodapesection{
     position: absolute;
     bottom: 60px;
@@ -1681,6 +1806,11 @@ border-radius:50px 50px 50px 50px;
 /*============================================================*/
 @media (min-width: 768px) and (max-width: 1279px) and (orientation : portrait) {
     
+    #home{
+        h1{
+            padding-top: 30%;
+        }
+    }
 
        // sobre emedweb
 // sobre emedweb    

@@ -31,30 +31,13 @@
                     <span class="drawer-hamburger-icon"></span>
                   </button>
               
-                                      
-                  <nav class="drawer-nav" role="navigation">
-                    <ul class="drawer-menu">       
-                      <li><img src="img/logo_int.png" class="center-block top10"></li>
-                   <br>
-                     
-                      <li><a class="drawer-menu-item animsition-link" href="sobre.php">Porque usar o eMedWeb?</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="app.php">Aplicativo Gratuito</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="vantagens.php">Vantagens Imbatíveis</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="adicionais.php">Adicionais Exclusivos</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="clientes.php">Depoimentos</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="contato.php">Sobre Nós</a></li>
-                      <hr>
-                      <div class="bg-green">
-                      <li><a class="drawer-menu-item animsition-link boldI" href="index.php">Cadastre-se e receba contato de um especialista</a></li>
-                    </div>
-                      <hr>
-                    </ul>
-                  </nav>
+                  <?php include("menutopo.php"); ?>
+
             <div class="topbar">
                     <div class="container-fluid">
                            <div class="row">
                                <div class="col-lg-4 col-md-4 col-sm-1 col-xs-2"></div>
-                               <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"><a href="index.php" class="animsition-link"><img src="img/logo_int.png" class="logoint img-responsive center-block" alt="logo internas" title="emedWeb Logo"></a></div>
+                               <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"><a href="https://emedweb.com.br" class="animsition-link"><img src="img/logo_int.png" class="logoint img-responsive center-block" alt="logo internas" title="emedWeb Logo"></a></div>
                                <div class="col-lg-4 col-md-4 col-sm-7 col-xs-10">
                                    <div class="teltopo">
                                     <span><i class="fa fa-phone-square"></i></span> <span class="num">0800 633-3633</span>
@@ -66,12 +49,7 @@
         <div class="clearfix"></div>
         <div class="menubar">
                 <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 azul alturamenu"><a href="app.php" class="animsition-link">Aplicativo Gratuito</a></div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 vermelho alturamenu "><a href="vantagens.php" class="animsition-link">Vantagens Imbativeis</a></div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 verdeclaro alturamenu"><a href="adicionais.php" class="animsition-link">Adicionais Exclusivos</a></div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 verde alturamenu"><a href="clientes.php" class="animsition-link">Depoimentos de Clínicas</a></div>
-                        </div>
+                <?php include("menufooter.php"); ?>
                     </div>
         </div>
     </header>
@@ -162,7 +140,7 @@ $(document).ready(function() {
 
       $('.statistic-counter_two, .statistic-counter, .count-number').counterUp({
                 delay: 10,
-                time: 10000
+                time: 2000
             });
     </script>
 </body>

@@ -31,25 +31,7 @@
             <span class="drawer-hamburger-icon"></span>
           </button>
       
-                               
-          <nav class="drawer-nav" role="navigation">
-                    <ul class="drawer-menu">       
-                      <li><img src="img/logo_int.png" class="center-block top10"></li>
-                   <br>
-                     
-                      <li><a class="drawer-menu-item animsition-link" href="sobre.php">Porque usar o eMedWeb?</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="app.php">Aplicativo Gratuito</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="vantagens.php">Vantagens Imbatíveis</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="adicionais.php">Adicionais Exclusivos</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="clientes.php">Depoimentos</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="contato.php">Sobre Nós</a></li>
-                      <hr>
-                      <div class="bg-green">
-                      <li><a class="drawer-menu-item animsition-link boldI" href="index.php">Cadastre-se e receba contato de um especialista</a></li>
-                    </div>
-                      <hr>
-                    </ul>
-                  </nav>
+          <?php include("menutopo.php"); ?>
     <div class="topbar">
             <div class="container-fluid">
                    <div class="row">
@@ -66,12 +48,7 @@
 <div class="clearfix"></div>
 <div class="menubar">
         <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 azul alturamenu"><a href="app.php" class="animsition-link">Aplicativo Gratuito</a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 vermelho alturamenu "><a href="vantagens.php" class="animsition-link">Vantagens Imbativeis</a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 verdeclaro alturamenu"><a href="adicionais.php" class="animsition-link">Adicionais Exclusivos</a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 verde alturamenu"><a href="clientes.php" class="animsition-link">Depoimentos de Clínicas</a></div>
-                </div>
+        <?php include("menufooter.php"); ?>
             </div>
 </div>
     </header>

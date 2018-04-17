@@ -32,72 +32,58 @@
                     <span class="drawer-hamburger-icon"></span>
                   </button>
               
-                  <nav class="drawer-nav" role="navigation">
-                    <ul class="drawer-menu">       
-                      <li><img src="img/logo_int.png" class="center-block top10"></li>
-                   <br>
-                     
-                      <li><a class="drawer-menu-item animsition-link" href="sobre.php">Porque usar o eMedWeb?</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="app.php">Aplicativo Gratuito</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="vantagens.php">Vantagens Imbatíveis</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="adicionais.php">Adicionais Exclusivos</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="clientes.php">Depoimentos</a></li>
-                      <li><a class="drawer-menu-item animsition-link" href="contato.php">Sobre Nós</a></li>
-                      <hr>
-                      <div class="bg-green">
-                      <li><a class="drawer-menu-item animsition-link boldI" href="index.php">Cadastre-se e receba contato de um especialista</a></li>
-                    </div>
-                      <hr>
-                    </ul>
-                  </nav>
+                  <?php include("menutopo.php"); ?>
             
         <div class="topbar">
                
                 <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-lg-8 col-md-8 col-sm-6 col-xs-2">                
-                           </div>
-                           
-                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10">
-                               <div class="teltopo">
-                                <span><i class="fa fa-phone-square"></i></span> <span class="num">0800 633-3633</span>
-                            </div>
-                           </div>
-                       </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-1 col-xs-2"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"><a href="https://emedweb.com.br" class="animsition-link"><img src="img/logo_int.png" class="logoint img-responsive center-block" alt="logo internas" title="emedWeb Logo"></a></div>
+                        <div class="col-lg-4 col-md-4 col-sm-7 col-xs-10">
+                            <div class="teltopo">
+                             <span><i class="fa fa-phone-square"></i></span> <span class="num">0800 633-3633</span>
+                         </div>
+                        </div>
+                    </div>
               </div>
         </div>
     </header>
     <section id="home" class="animsition-overlay">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="logo">
-                        <img src="img/logo_topo.png" alt="logo eMedweb" title="logo EmedWeb">
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
                     <div class="row">
                        
                         <div class="col-xs-12">
-                            <h1>O melhor e mais completo sistema do  mercado.<br> Lucratividade já nas <span>primeiras semanas.</span></h1>
+                        
+                            <h1>Aumente o Resultado de sua clínica <span>em 5 dias</span></h1>
+                            <div class="box">
+                            <p class="subtexto">
+                                <i class="fa fa-check-square-o"></i> Controle total de seu negócio, benefícios já na primeira semana com agenda e prontuário.</p>
+                             <p class="subtexto"><i class="fa fa-check-square-o"></i>   O melhor e mais completo sistema do mercado, feito por especialistas em gestão.</p>
+                            </div>
+                        
                         </div>
                     </div>
                     <div class="row top20">
                                                          
-                            
-                            <div class="col-xs-12">
+                            <div class="col-lg-12 col-xs-12">
                                     <img src="img/seta_form.png" alt="emedweb" title="seta formulario" class="img-responsive pull-left"> 
                                     <h2>Descubra <span>AGORA</span> o verdadeiro potencial de sua clínica</h2>
                                     <div class="pull-left col-xs-11 top10">
-                                            <form action="e_propostaCheck.php" method="post">
+                                            <form action="enviaConfirmacao.php" method="post">
+                                    <input name="urlSite" type="hidden" value="https://www.emedweb.com.br"/>
+                                    <input type="hidden" name="ip" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>">
                                        <div class="bloco">
                                            <div class="full">
-                                                    <input type="text" class="form-control" id="nome" placeholder="*Nome Completo">
+                                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="*Nome Completo">
                                             </div>        
                                        </div> 
                                        <div class="bloco">          
-                                                    <input type="text" class="form-control meio_e" id="email" placeholder="*Seu e-mail">
-                                                    <input type="text" class="form-control meio_d" id="tel" placeholder="*Seu celular">
+                                                    <input type="text" class="form-control meio_e" id="email" name="email" placeholder="*Seu e-mail">
+                                                    <input type="text" class="form-control meio_d" id="tel" name="tel" placeholder="*Seu celular">
                                         </div>                                                 
                                         <div class="bloco">               
                                          <button type="submit" class="btn btn-success full">QUERO RECEBER O CONTATO DE UM ESPECIALISTA</button>
@@ -105,9 +91,9 @@
                                             </form>            
                                          
                                     </div>
-                                    <div class="col-xs-11">
+                                    <!-- <div class="col-xs-11">
                                             <p><i class="fa fa-heart animated infinite pulse"></i> Restam apenas <span>50 </span> Vagas</p>
-                                    </div>
+                                    </div>-->
                       
                             </div>
                             
