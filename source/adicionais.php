@@ -8,9 +8,9 @@
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EmedWeb Sistema para Clínicas</title>       
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="dist/css/animsition.min.css" rel="stylesheet">
-    <link href="css/sandbox.css" rel="stylesheet">
+    <link href="https://www.emedweb.com.br/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.emedweb.com.br/dist/css/animsition.min.css" rel="stylesheet">
+    <link href="https://www.emedweb.com.br/css/sandbox.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +33,7 @@
             <div class="container-fluid">
                    <div class="row">
                        <div class="col-lg-4 col-md-4 col-sm-1 col-xs-2"></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"><a href="index.php" class="animsition-link"><img src="img/logo_int.png" class="logoint img-responsive center-block" alt="logo internas" title="emedWeb Logo"></a></div>
+                       <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"><a href="https://www.emedweb.com.br/" class="animsition-link"><img src="img/logo_int.png" class="logoint img-responsive center-block" alt="logo internas" title="emedWeb Logo"></a></div>
                        <div class="col-lg-4 col-md-4 col-sm-7 col-xs-10">
                            <div class="teltopo">
                             <span><i class="fa fa-phone-square"></i></span> <span class="num">0800 633-3633</span>
@@ -144,7 +144,7 @@
             
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="medico">
-                       
+                    
                 </div>
     
             </div>
@@ -156,12 +156,12 @@
 </div>
      <!-- scripts-->
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
   <script src="https://use.fontawesome.com/5cb466a7f4.js"></script>
-  <script src="dist/js/drawer.js" charset="utf-8"></script>
-  <script scr="main.js"></script>
-<script src="dist/js/animsition.min.js" charset="utf-8"></script> 
+  <script src="https://www.emedweb.com.br/dist/js/drawer.js" charset="utf-8"></script>
+  <script scr="https://www.emedweb.com.br/main.js"></script>
+<script src="https://www.emedweb.com.br/dist/js/animsition.min.js" charset="utf-8"></script> 
 <script>
 $(document).ready(function() {
   $('.animsition-overlay').animsition({

@@ -105,6 +105,25 @@
        input[type=text]{ 
            height: 40px;
        }
+       ::-webkit-input-placeholder {
+        color: #9a9d9e;
+        font-weight: $medio;
+     }
+     
+     :-moz-placeholder { /* Firefox 18- */
+        color: #9a9d9e; 
+        font-weight: $medio; 
+     }
+     
+     ::-moz-placeholder {  /* Firefox 19+ */
+        color:#9a9d9e;  
+        font-weight: $medio;
+     }
+     
+     :-ms-input-placeholder {  
+        color:#9a9d9e; 
+        font-weight: $medio; 
+     }
        button[type=submit]{ 
         height: 40px;
     }

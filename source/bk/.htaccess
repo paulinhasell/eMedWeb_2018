@@ -1,0 +1,40 @@
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 109.
+
+ 
+RewriteEngine On  
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^fale-conosco/?$ /contato.php [NC,L]
+RewriteRule ^quem-somos/?$ /empresa.php [NC,L]
+RewriteRule ^conheca-o-emedweb/?$ /produtos.php [NC,L]
+RewriteRule ^envia/?$ /envia.php [NC,L]
+RewriteRule ^contrate-o-emedweb/?$ /contrate.php [NC,L]
+RewriteRule ^concluir/?$ /enviacontrato.php [NC,L]
+
+RewriteCond %{HTTP_HOST} ^emedweb\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.emedweb\.com\.br$
+RewriteRule ^suporte\/?(.*)$ "http\:\/\/www\.emedweb\.com\.br\/tutoriais\.php$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^emedweb\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.emedweb\.com\.br$
+RewriteRule ^contratar\/?(.*)$ "http\:\/\/www\.emedweb\.com\.br\/contrate\.php$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^emedweb\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.emedweb\.com\.br$
+RewriteRule ^apresentacao\/?(.*)$ "http\:\/\/web\.conferenciacorp\.com\.br\/emed$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^emedweb\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.emedweb\.com\.br$
+RewriteRule ^pagamentos\/?(.*)$ "http\:\/\/www\.emedweb\.com\.br\/pagamento\.php$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^emedweb\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.emedweb\.com\.br$
+RewriteRule ^parceiros\/?(.*)$ "http\:\/\/www\.emedweb\.com\.br\/parceiro\.php$1" [R=301,L]
+

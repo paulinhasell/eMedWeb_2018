@@ -12,9 +12,9 @@
 
     <!-- Bootstrap -->
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="dist/css/animsition.min.css" rel="stylesheet">
-    <link href="css/sandbox.css" rel="stylesheet">
+    <link href="https://www.emedweb.com.br/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.emedweb.com.br/dist/css/animsition.min.css" rel="stylesheet">
+    <link href="https://www.emedweb.com.br/css/sandbox.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -114,13 +114,13 @@
 </div>
   <!-- scripts-->
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
   <script src="https://use.fontawesome.com/5cb466a7f4.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-  <script src="dist/js/drawer.js" charset="utf-8"></script>
-  <script scr="main.js"></script>
+  <script src="https://www.emedweb.com.br/dist/js/drawer.js" charset="utf-8"></script>
+  <script scr="https://www.emedweb.com.br/main.js"></script>
 
 <script src="dist/js/animsition.min.js" charset="utf-8"></script> 
 <script>
